@@ -34,14 +34,10 @@ public class Task1 {
 
         rb.keyPress(KeyEvent.VK_ENTER);
         rb.keyRelease(KeyEvent.VK_ENTER);
-
         driver.findElement(By.id("postform-name")).sendKeys("helloweb");
-
         WebElement sb;
         sb = driver.findElement(By.xpath("//button[text()='Create New Paste']"));
-
         sb.click();
-
     }
 }
 
